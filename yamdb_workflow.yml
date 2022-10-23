@@ -45,8 +45,8 @@ jobs:
         with:
           no-cache: true
           push: true
-          tags: shmakovauljana/yamdb_final:latest
-          context: ./api_yamdb/
+          tags: ulyana819/yamdb_final:latest
+          context: api_yamdb
   
   deploy:
     runs-on: ubuntu-latest
